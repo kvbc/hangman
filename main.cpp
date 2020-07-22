@@ -34,7 +34,7 @@ int main() {
 	out::hman(lvl);
 	out::word(cword);
 	if(lvl < 1) std::cout << "You lose!\n";
-	else		std::cout << "You won!\n";
+	else	    std::cout << "You won!\n";
 	std::cout << "Press any key to continue ";
 
 	std::cin.ignore();
